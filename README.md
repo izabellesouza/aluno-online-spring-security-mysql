@@ -250,8 +250,15 @@ No Windows:
 ```bash
 mvnw.cmd spring-boot:run
 ```
+## Variáveis de ambiente
 
----
+Para executar o projeto, configure as seguintes variáveis de ambiente:
+
+```text
+DB_USERNAME=aluno_online_user
+DB_PASSWORD=sua_senha_mysql
+JWT_SECRET=sua_chave_secreta_jwt
+```
 
 ## Testes realizados
 
