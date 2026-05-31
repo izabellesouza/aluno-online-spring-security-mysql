@@ -259,6 +259,31 @@ DB_USERNAME=aluno_online_user
 DB_PASSWORD=sua_senha_mysql
 JWT_SECRET=sua_chave_secreta_jwt
 ```
+## Evidências de funcionamento
+
+### Swagger carregando os endpoints
+
+![Swagger com endpoints](docs/images/01-swagger-endpoints.png)
+
+### Tabelas criadas no MySQL
+
+![Tabelas no MySQL](docs/images/02-mysql-tabelas.png)
+
+### Rota protegida sem token
+
+![Rota bloqueada sem token](docs/images/03-rota-bloqueada-sem-token.png)
+
+### Login retornando token JWT
+
+![Login retornando JWT](docs/images/04-login-token-jwt.png)
+
+### Swagger autorizado com Bearer Token
+
+![Swagger autorizado](docs/images/05-swagger-authorized.png)
+
+### GET /alunos funcionando com token
+
+![GET alunos com token](docs/images/06-get-alunos-com-token.png)
 
 ## Testes realizados
 
